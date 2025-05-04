@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .logo {
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .search-box {
+    display: flex;
+  }
+  
+  .search-box input {
+    padding: 5px;
+    border: none;
+  }
+  
+  .search-box button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+  }
+  
+  .content h1 span {
+    color: orange;
+  }
+  
+  .content p {
+    margin: 20px 0;
+  }
+  
+  .join-btn {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .login-box h2 {
+    color: orange;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-box form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+  }
+  
+  .login-box form button {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-box p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .login-box a {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  .social-login .icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-login i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
